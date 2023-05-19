@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.ytree.randomgenerator.RandomGenTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-05-19T15:08:32" hostname="Ruaidhri-ONeills-MacBook-Pro.local" time="0.06">
+  <properties/>
+  <testcase name="expect probabilities that don't sum to 1 to throw IllegalArgumentException with message()" classname="io.ytree.randomgenerator.RandomGenTest" time="0.053"/>
+  <testcase name="expect different number of randomNums and probabilities throws IllegalArgumentException with message()" classname="io.ytree.randomgenerator.RandomGenTest" time="0.001"/>
+  <testcase name="expect generated nums to converge on probability()" classname="io.ytree.randomgenerator.RandomGenTest" time="0.005"/>
+  <testcase name="expect randomNums containing non-unique values throws IllegalArgumentException with message()" classname="io.ytree.randomgenerator.RandomGenTest" time="0.001"/>
+  <testcase name="expect generated num to be one of inputs()" classname="io.ytree.randomgenerator.RandomGenTest" time="0.0"/>
+  <system-out><![CDATA[Results of running nextNum() 100 times: {1=62, 0=31, 2=7}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
